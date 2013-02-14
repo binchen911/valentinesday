@@ -98,7 +98,7 @@ $(function(){
     if (!document.createElement('canvas').getContext) {
         var msg = document.createElement("div");
         msg.id = "errorMsg";
-        msg.innerHTML = "技术问题导致不能正常显示"; 
+        msg.innerHTML = "浏览器版本太陈旧导致不能正常显示, 请使用新版本的Chrome，Firefox，Opera等浏览器"; 
         document.body.appendChild(msg);
         document.execCommand("stop");
     } else {
