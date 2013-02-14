@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background: #FFFFEE;
+    background: #EEFFFF;
     font-size: 20px;
     font-family: 'euler';
     overflow: auto;
@@ -31,4 +31,12 @@ body{
 #eqution{
     width: 334px;
     margin: 0 auto;
+}
+
+#copyright{
+    text-align: right;
+    font-size: 10px;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
 }
